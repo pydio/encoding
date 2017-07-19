@@ -1,5 +1,7 @@
 # encoding
-Basic tool for fixing mixed NFC/NFD encoding
+
+Basic tool for fixing mixed NFC/NFD encoding. Will walk recursively throughout a folder and detect NFD encoded filenames. If not in dry-run mode, it will rename them to using NFC normalization form.  
+Not working on MacOSX, as MacOSX always store filenames in NFD.
 
 ## Usage
 
